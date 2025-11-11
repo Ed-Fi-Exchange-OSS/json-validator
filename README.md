@@ -1,10 +1,10 @@
-# {Insert Repository Name Here}
+# json-validator
 
-{Insert project information here}
+Coming soon!
 
 ## Legal Information
 
-Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2025 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
