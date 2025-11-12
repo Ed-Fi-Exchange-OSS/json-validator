@@ -3,7 +3,6 @@
 # The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
 # See the LICENSE and NOTICES files in the project root for more information.
 
-#!/usr/bin/env python3
 """
 Example usage of the Ed-Fi JSON validator.
 
@@ -11,10 +10,7 @@ This script demonstrates how to use the DataLakeValidator programmatically
 to validate JSON files against Ed-Fi OpenAPI specifications.
 """
 
-import json
 import logging
-import tempfile
-from pathlib import Path
 
 from json_validator.validator import DataLakeValidator
 
