@@ -1,6 +1,8 @@
 # json-validator
 
-This repository contains sample code for validating JSON paylos using an OpenAPI specification file as the schema definition. This sample code can help satisfy use cases including:
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Exchange-OSS/json-validator/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Exchange-OSS/json-validator)
+
+This repository contains sample code for validating JSON payloads using an OpenAPI specification file as the schema definition. This sample code can help satisfy use cases including:
 
 - Confirming that JSON data are valid for submission to an Ed-Fi Resource API (i.e. the Ed-Fi ODS/API) before issuing an HTTP `POST` or `PUT` request.
 - Validating that JSON files stored in a data lake conform to the Ed-Fi Data Standard, as represented by the Ed-Fi API Specification.
