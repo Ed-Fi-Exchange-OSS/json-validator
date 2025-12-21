@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "json-validator"
+version = "1.0.0"
+description = "JSON Schema validator for Ed-Fi data lake files against OpenAPI specifications"
+authors = ["Ed-Fi Alliance <techsupport@ed-fi.org>"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.11.0"
+jsonschema = "^4.19.0"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.0"
+black = "^25.11.0"
+flake8 = "^7.3.0"
+mypy = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
